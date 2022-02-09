@@ -13,8 +13,10 @@ Resources
 Analysis
 
 I started by adding list items for the filters that were required (city, state, country, shape). These were added to the unordered list section in the .html file that already held the user input area for the date filter we developed in the module. Once this was completed, I built the Javascript code to grab the user input from these items and append a JS object (named "filters"). The .toLowerCase() method was useful to make sure the user input was in the correct state to match up the filters. I then found code on Stack Overflow1 that helped me remove the keys and values from the object if the user did not enter data into that field (i.e. empty value). Once we have this clean object, we can loop through it by converting the object to an array (in this case an array of key/value pair arrays) to build the filtered data. We then return to the buildTable function where we pass the filteredData as the parameter. I have also added a clear filters button and function that simply reloads the page since our default is the complete table (i.e. no filters). As a recommended action, we could improve data accuracy by creating dropdown lists for the user to choose from, but the placeholder does a pretty nice job of directing the user to the correct format for data entry.
+![Website screenshot](https://user-images.githubusercontent.com/92246505/153174460-ba541ce4-d81e-4934-9fdd-77785e90b3f3.png)
 
-"C:\Users\josag\OneDrive\Desktop\Website screenshot.png"
+
+
 
 Summary
 Drawback
