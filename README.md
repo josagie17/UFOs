@@ -18,7 +18,7 @@ I started by adding list items for the filters that were required (city, state, 
 
 
 
-Summary
+Summary:
 Drawback
 One draw back is the absence of a prompt from the filters during a search. The list of sightings we have in the data is not exhuastive, therefore some of the search criteria do not brinng up any information. However, there is no prompt in the search box to show that a search criteria has not information to show from the table. The user might be unawre and there's a chance they might think the filters don't work.
 Recommendations:
